@@ -31,10 +31,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -89,9 +87,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2818}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3498}
     - Class: 114
-      Script: {instanceID: 20922}
+      Script: {instanceID: 3860}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -148,7 +146,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2818}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3860}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -237,19 +235,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 3814}
+      Script: {instanceID: 3818}
     - Class: 114
-      Script: {instanceID: 3870}
+      Script: {instanceID: 3874}
     - Class: 114
-      Script: {instanceID: 3934}
+      Script: {instanceID: 3938}
     - Class: 114
-      Script: {instanceID: 4050}
+      Script: {instanceID: 4054}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 4296}
+      Script: {instanceID: 4300}
     - Class: 114
-      Script: {instanceID: 4362}
+      Script: {instanceID: 4366}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -316,13 +314,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2818}
     - Class: 114
-      Script: {instanceID: 3660}
+      Script: {instanceID: 3664}
     - Class: 114
-      Script: {instanceID: 3748}
+      Script: {instanceID: 3752}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3860}
     - Class: 114
-      Script: {instanceID: 3996}
+      Script: {instanceID: 4000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -750,10 +748,22 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 2e1b6cb70b1f8d4a8a5934a96110588f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EndGameScore
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreKeep
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -898,18 +908,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HealthPack
-  - hash:
-      serializedVersion: 2
-      Hash: 2e1b6cb70b1f8d4a8a5934a96110588f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EndGameScore
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScoreKeep
   platform: 5
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity
