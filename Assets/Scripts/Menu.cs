@@ -19,6 +19,7 @@ public class Menu : MonoBehaviour
 
     public void MainMenu(string menu)
     {
+        ScoreKeep.currScore = 0;
         SceneManager.LoadScene(menu);
     }
 
