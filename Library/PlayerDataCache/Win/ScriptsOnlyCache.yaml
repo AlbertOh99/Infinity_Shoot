@@ -3,12 +3,14 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Bullet
     - CharacterAnimation
+    - EndGameScore
     - Enemy
     - EnemyBullet
     - EnemySpawner
     - GameController
     - HeadCam
     - HealthBar
+    - HealthPack
     - Menu
     - MouseLook
     - PlayerMovement
@@ -29,8 +31,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -71,9 +75,72 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1544}
     - Class: 114
+      Script: {instanceID: 1762}
+    - Class: 114
       Script: {instanceID: 2294}
     - Class: 114
       Script: {instanceID: 2400}
+    - Class: 114
+      Script: {instanceID: 2438}
+    - Class: 114
+      Script: {instanceID: 2536}
+    - Class: 114
+      Script: {instanceID: 2722}
+    - Class: 114
+      Script: {instanceID: 2818}
+    - Class: 114
+      Script: {instanceID: 3856}
+    - Class: 114
+      Script: {instanceID: 20922}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Instructions.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1496}
+    - Class: 114
+      Script: {instanceID: 1544}
+    - Class: 114
+      Script: {instanceID: 1762}
+    - Class: 114
+      Script: {instanceID: 2294}
+    - Class: 114
+      Script: {instanceID: 2400}
+    - Class: 114
+      Script: {instanceID: 2438}
     - Class: 114
       Script: {instanceID: 2536}
     - Class: 114
@@ -181,6 +248,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4106}
     - Class: 114
       Script: {instanceID: 4296}
+    - Class: 114
+      Script: {instanceID: 4362}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -555,7 +624,7 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: dd8c6e8ad81879071e62919639d5ce9c
+      Hash: bdb6d8b1c115edee73b69465262767e1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -829,9 +898,22 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HealthPack
+  - hash:
+      serializedVersion: 2
+      Hash: 2e1b6cb70b1f8d4a8a5934a96110588f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EndGameScore
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreKeep
   platform: 5
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity
   - Assets/Scenes/Lvl_1.unity
   - Assets/Scenes/Death.unity
+  - Assets/Scenes/Instructions.unity
   playerPath: d:/Hard Drive - Documents/Unity Games/First_Person_Game/First_Person_Game.exe

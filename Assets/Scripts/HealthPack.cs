@@ -32,8 +32,8 @@ public class HealthPack : MonoBehaviour
                 Destroy(this.gameObject);
             } else
             {
-                Player.GetComponent<PlayerMovement>().HP += 20;
                 Destroy(this.gameObject);
+                Player.GetComponent<PlayerMovement>().HP += 20;
             }
             HealthBar.instance.health();
         }

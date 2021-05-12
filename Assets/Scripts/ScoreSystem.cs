@@ -32,5 +32,10 @@ public class ScoreSystem : MonoBehaviour
     {
         score += 1;
         scoreText.text = "Score: " + score.ToString();
+        ScoreKeep.currScore = score;
+        if(ScoreKeep.highScore < score)
+        {
+            ScoreKeep.highScore = score;
+        }
     }
 }

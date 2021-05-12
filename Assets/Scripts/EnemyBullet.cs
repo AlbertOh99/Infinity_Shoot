@@ -42,10 +42,11 @@ public class EnemyBullet : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            Destroy(this.gameObject);
             HealthBar.instance.health();
             playerTrigger = other.gameObject;
             playerTrigger.GetComponent<PlayerMovement>().HP -= damage;
-            Destroy(this.gameObject);
+
         }
         if (other.tag == "Ground")
         {

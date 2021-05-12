@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         //player = player1.transform;
-        fireReady = 500;
+        fireReady = 800;
     }
 
     // Update is called once per frame
