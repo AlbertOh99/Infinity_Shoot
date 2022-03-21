@@ -18,9 +18,7 @@ Every sprite except for the enemy squares are from the unity asset store.
 The music is from the asset store as well. The lazer sound is from zapsplat.com
 Player model is also from the asset store.
 
-
-
-Few things to note in case I don't get to them in the video.
+General Notes To Get Better
 
 I spent too much time on unnecessary things for a prototype.
 I didn't need to worry about the player model being some kind of dummy, I could have just
@@ -31,7 +29,7 @@ I need to remember a prototype doesn't need to be fancy but functional. So I was
 trying to make poop look nice. I should have focused more of the game design aspects instead of
 visuals (not that the visuals even look great).
 
-Some thing that I want to add if I keep developing this game - 
+Some thing that I want to add if I want to -
 - Possibly make procedually generated rooms that work well (so not just randomly placed platforms)
 - Gun upgrades - Increase bullet speed/fire rate.
 - Different guns
